@@ -1,0 +1,8 @@
+/*
+ * main.c
+ *
+ *  Created on: 23.10.2019
+ *      Author: Johannes Koski
+ */
+
+#include <errno.h>

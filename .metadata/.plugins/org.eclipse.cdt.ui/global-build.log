@@ -1,0 +1,398 @@
+11:54:54 **** Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+'Finished building: ../src/project-one.c'
+' '
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/project-one.o   
+'Finished building target: project-one'
+' '
+12:20:52 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+12:21:54 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+13:35:34 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+13:41:33 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:30:2: error: expected ';' before 'return'
+  return EXIT_SUCCESS;
+  ^~~~~~
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:42:05 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+'Finished building: ../src/project-one.c'
+' '
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/project-one.o   
+'Finished building target: project-one'
+' '
+13:43:12 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:27:3: error: too many arguments to function 'puts'
+   puts("Number is: ", number);
+   ^~~~
+In file included from ../src/project-one.c:11:0:
+c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include/stdio.h:697:12: note: declared here
+ extern int puts (const char *__s);
+            ^~~~
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:44:34 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:26:18: error: called object 'addition' is not a function or function pointer
+   int addition = addition();
+                  ^~~~~~~~
+../src/project-one.c:26:7: note: declared here
+   int addition = addition();
+       ^~~~~~~~
+../src/project-one.c:27:3: error: too many arguments to function 'puts'
+   puts("Number is: ", number + addition);
+   ^~~~
+In file included from ../src/project-one.c:11:0:
+c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include/stdio.h:697:12: note: declared here
+ extern int puts (const char *__s);
+            ^~~~
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:45:03 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:27:3: error: too many arguments to function 'puts'
+   puts("Number is: ", number + additionNumber);
+   ^~~~
+In file included from ../src/project-one.c:11:0:
+c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include/stdio.h:697:12: note: declared here
+ extern int puts (const char *__s);
+            ^~~~
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:45:50 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:28:3: error: too many arguments to function 'puts'
+   puts("Number is: ", number);
+   ^~~~
+In file included from ../src/project-one.c:11:0:
+c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include/stdio.h:697:12: note: declared here
+ extern int puts (const char *__s);
+            ^~~~
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:00 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:30:2: error: 'else' without a previous 'if'
+  else(){
+  ^~~~
+../src/project-one.c:30:7: error: expected expression before ')' token
+  else(){
+       ^
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:47:26 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:30:2: error: 'else' without a previous 'if'
+  else(number == 105){
+  ^~~~
+../src/project-one.c:30:14: warning: statement with no effect [-Wunused-value]
+  else(number == 105){
+      ~~~~~~~~^~~~~~~
+../src/project-one.c:30:21: error: expected ';' before '{' token
+  else(number == 105){
+                     ^
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:48:41 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+../src/project-one.c: In function 'main':
+../src/project-one.c:29:2: error: 'else' without a previous 'if'
+  else(number = 105) {
+  ^~~~
+../src/project-one.c:29:21: error: expected ';' before '{' token
+  else(number = 105) {
+                     ^
+make: *** [src/project-one.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:50:52 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/project-one.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/project-one.d" -MT"src/project-one.o" -o "src/project-one.o" "../src/project-one.c"
+'Finished building: ../src/project-one.c'
+' '
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/project-one.o   
+'Finished building target: project-one'
+' '
+14:12:00 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+'Finished building: ../src/ioconfig.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:12:1: warning: data definition has no type or storage class
+ timers_init();
+ ^~~~~~~~~~~
+../src/main.c:12:1: warning: type defaults to 'int' in declaration of 'timers_init' [-Wimplicit-int]
+../src/main.c:13:1: error: expected identifier or '(' before 'while'
+ while(1) {
+ ^~~~~
+make: *** [src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:15:35 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+../src/ioconfig.c: In function 'io_init':
+../src/ioconfig.c:32:10: error: 'DEBUG_PIN_1' undeclared (first use in this function)
+  pinMode(DEBUG_PIN_1, OUTPUT); //Not needed!
+          ^~~~~~~~~~~
+../src/ioconfig.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/ioconfig.c: In function 'io_interrupt_init':
+../src/ioconfig.c:50:14: error: 'EXT_INT_PIN_1' undeclared (first use in this function)
+  wiringPiISR(EXT_INT_PIN_1, INT_EDGE_RISING, ext_int1_handler);
+              ^~~~~~~~~~~~~
+make: *** [src/ioconfig.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:15:44 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+../src/ioconfig.c: In function 'io_init':
+../src/ioconfig.c:32:10: error: 'DEBUG_PIN_1' undeclared (first use in this function)
+  pinMode(DEBUG_PIN_1, OUTPUT); //Not needed!
+          ^~~~~~~~~~~
+../src/ioconfig.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/ioconfig.c: In function 'io_interrupt_init':
+../src/ioconfig.c:50:14: error: 'EXT_INT_PIN_1' undeclared (first use in this function)
+  wiringPiISR(EXT_INT_PIN_1, INT_EDGE_RISING, ext_int1_handler);
+              ^~~~~~~~~~~~~
+make: *** [src/ioconfig.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:26:47 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+../src/ioconfig.c: In function 'io_init':
+../src/ioconfig.c:32:10: error: 'DEBUG_PIN_1' undeclared (first use in this function)
+  pinMode(DEBUG_PIN_1, OUTPUT); //Not needed!
+          ^~~~~~~~~~~
+../src/ioconfig.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/ioconfig.c: In function 'io_interrupt_init':
+../src/ioconfig.c:50:14: error: 'EXT_INT_PIN_1' undeclared (first use in this function)
+  wiringPiISR(EXT_INT_PIN_1, INT_EDGE_RISING, ext_int1_handler);
+              ^~~~~~~~~~~~~
+make: *** [src/ioconfig.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:27:24 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+../src/ioconfig.c: In function 'io_init':
+../src/ioconfig.c:32:10: error: 'DEBUG_PIN_1' undeclared (first use in this function)
+  pinMode(DEBUG_PIN_1, OUTPUT); //Not needed!
+          ^~~~~~~~~~~
+../src/ioconfig.c:32:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/ioconfig.c: In function 'io_interrupt_init':
+../src/ioconfig.c:50:14: error: 'EXT_INT_PIN_1' undeclared (first use in this function)
+  wiringPiISR(EXT_INT_PIN_1, INT_EDGE_RISING, ext_int1_handler);
+              ^~~~~~~~~~~~~
+make: *** [src/ioconfig.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:33:39 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/ioconfig.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ioconfig.d" -MT"src/ioconfig.o" -o "src/ioconfig.o" "../src/ioconfig.c"
+../src/ioconfig.c:18:1: warning: data definition has no type or storage class
+ DEBUG_PIN_1;
+ ^~~~~~~~~~~
+../src/ioconfig.c:18:1: warning: type defaults to 'int' in declaration of 'DEBUG_PIN_1' [-Wimplicit-int]
+../src/ioconfig.c:19:1: warning: data definition has no type or storage class
+ EXT_INT_PIN_1;
+ ^~~~~~~~~~~~~
+../src/ioconfig.c:19:1: warning: type defaults to 'int' in declaration of 'EXT_INT_PIN_1' [-Wimplicit-int]
+'Finished building: ../src/ioconfig.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:12:1: warning: data definition has no type or storage class
+ timers_init();
+ ^~~~~~~~~~~
+../src/main.c:12:1: warning: type defaults to 'int' in declaration of 'timers_init' [-Wimplicit-int]
+../src/main.c:13:1: error: expected identifier or '(' before 'while'
+ while(1) { }
+ ^~~~~
+make: *** [src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:35:50 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:12:1: warning: data definition has no type or storage class
+ timers_init();
+ ^~~~~~~~~~~
+../src/main.c:12:1: warning: type defaults to 'int' in declaration of 'timers_init' [-Wimplicit-int]
+../src/main.c:13:1: error: expected identifier or '(' before 'while'
+ while(1) { };
+ ^~~~~
+make: *** [src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:43:43 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:0:
+../src/timers_init.h:11:36: error: unknown type name 'siginfo_t'
+ static void timerHandler( int sig, siginfo_t *si, void *uc );
+                                    ^~~~~~~~~
+../src/timers_init.h:12:22: error: unknown type name 'timer_t'
+ static int makeTimer(timer_t *timerID, int expire_msec, int interval_msec );
+                      ^~~~~~~
+make: *** [src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:44:21 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:0:
+../src/timers_init.h:11:13: warning: 'timerHandler' declared 'static' but never defined [-Wunused-function]
+ static void timerHandler();
+             ^~~~~~~~~~~~
+../src/timers_init.h:12:12: warning: 'makeTimer' declared 'static' but never defined [-Wunused-function]
+ static int makeTimer();
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timers_init.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/timers_init.d" -MT"src/timers_init.o" -o "src/timers_init.o" "../src/timers_init.c"
+'Finished building: ../src/timers_init.c'
+' '
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/ioconfig.o ./src/main.o ./src/project-one.o ./src/timers_init.o   -lrt
+./src/project-one.o: In function `main':
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/project-one.c:22: multiple definition of `main'
+./src/main.o:C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/main.c:12: first defined here
+./src/ioconfig.o: In function `io_init':
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:25: undefined reference to `wiringPiSetup'
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:28: undefined reference to `pinMode'
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:29: undefined reference to `digitalWrite'
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:30: undefined reference to `delay'
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:31: undefined reference to `digitalWrite'
+./src/ioconfig.o: In function `io_interrupt_init':
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/ioconfig.c:46: undefined reference to `wiringPiISR'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project-one] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:45:31 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/ioconfig.o ./src/main.o ./src/project-one.o ./src/timers_init.o   -lrt -lwPi
+./src/project-one.o: In function `main':
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/project-one.c:22: multiple definition of `main'
+./src/main.o:C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/main.c:12: first defined here
+c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/ld.exe: cannot find -lwPi
+collect2.exe: error: ld returned 1 exit status
+make: *** [project-one] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:46:18 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/ioconfig.o ./src/main.o ./src/project-one.o ./src/timers_init.o   -lrt -lwiringPi
+./src/project-one.o: In function `main':
+C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/project-one.c:22: multiple definition of `main'
+./src/main.o:C:\Users\Jonttu\eclipse-workspace\project-one\Debug/../src/main.c:12: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [project-one] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:47:25 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: Cross GCC Compiler'
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:9:0:
+../src/timers_init.h:11:13: warning: 'timerHandler' declared 'static' but never defined [-Wunused-function]
+ static void timerHandler();
+             ^~~~~~~~~~~~
+../src/timers_init.h:12:12: warning: 'makeTimer' declared 'static' but never defined [-Wunused-function]
+ static int makeTimer();
+            ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: project-one'
+'Invoking: Cross GCC Linker'
+arm-linux-gnueabihf-gcc  -o "project-one"  ./src/ioconfig.o ./src/main.o ./src/timers_init.o   -lrt -lwiringPi
+'Finished building target: project-one'
+' '
+14:47:38 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+14:47:42 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+14:47:52 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+14:49:52 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.
+14:53:25 **** Incremental Build of configuration Debug for project project-one ****
+make all 
+make: Nothing to be done for `all'.

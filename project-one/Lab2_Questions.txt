@@ -1,0 +1,9 @@
+1. What is the maximum SPI clock frequency? Assume Vcc = 3.3V. 5 MHz
+2. How much earlier the CS needs to be pulled down before the first rising edge of the clock? Assume mode 0,0. 100 ns
+3. What is the data set-up time, i.e. how much earlier the data must be stable prior to rising edge of the clock? 18 ns
+4. What is the maximum time you can expect from succesful serial data write to change in GPIO outputs? 500 ns
+5. How many configurable registers MCP23S17 has? 21 registers
+6. What is the required pattern you need to write over SPI in order to set GPB0 to logic ‘1’? Use hexadecimal notation and don’t forget the control/address word(s)
+	a. Assume that slave address[3:1] is “000”
+	b. Use IOCON.Bank = ‘0’. This means: 3-3 and 3-5 has correct register address mappings
+	c. TIP: You don’t need to write to every register in the chip – have a look at the power-on-reset (POR) values of the registers – if they are ok, just leave them. Focus only on the ones which needs to be changed.

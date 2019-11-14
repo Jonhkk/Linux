@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : project-one.c
+ Author      : Johannes Koski
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int number = 99;
+
+int addition(){
+	number+=1;
+	return number;
+}
+
+int main(void) {
+	int counter = 0;
+	return EXIT_SUCCESS;
+	while(number < 105) {
+		puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+		addition();
+		counter+=1;
+	}
+	puts("Loop ended!")
+	return EXIT_SUCCESS;
+}
